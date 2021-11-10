@@ -5,7 +5,7 @@ body{
     min-height:100vh;
     align-items:center;
     justify-content:center;
-    background-color:white;
+    background-image:linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
 }
 .waves{
     display:flex;
@@ -18,61 +18,76 @@ body{
     background-color:#E50914;
     animation:waveseffect 1.4s linear infinite;
 }
-        .waves span:nth-child(1)
-        {
-                animation-delay:0;
+            .waves span:nth-child(1)
+            {
+
+                animation-delay:0s;
+                background-color:red;
             }
             .waves span:nth-child(2)
             {
                 animation-delay:0.2s;
+                background-color:red;
             }
             .waves span:nth-child(3)
             {
                 animation-delay:0.3s;
+                background-color:orange;
             }
             .waves span:nth-child(4)
             {
                 animation-delay:0.4s;
+                background-color:orange;
             }
             .waves span:nth-child(5)
             {
                 animation-delay:0.5s;
+                background-color:yellow;
             }
             .waves span:nth-child(6)
             {
                 animation-delay:0.6s;
+                background-color:yellow;
             }
             .waves span:nth-child(7)
             {
                 animation-delay:0.7s;
+                background-color:green;
             }
             .waves span:nth-child(8)
             {
                 animation-delay:0.8s;
+                background-color:green;
             }
             .waves span:nth-child(9)
             {
                 animation-delay:0.9s;
+                background-color:blue;
             }
             .waves span:nth-child(10)
             {
                 animation-delay:1s;
+                background-color:blue;
             }
             .waves span:nth-child(11)
             {
                 animation-delay:1.1s;
+                background-color:indigo;
             }
             .waves span:nth-child(12)
             {
                 animation-delay:1.2s;
+                background-color:indigo;
             }
             .waves span:nth-child(13)
             {
                 animation-delay:1.3s;
+                background-color:violet;
             }
             .waves span:nth-child(14)
             {
                 animation-delay:1.4s;
+                background-color:violet;
             }
 @keyframes waveseffect
 {
